@@ -1,0 +1,29 @@
+th {
+  color: #575757
+}
+td.prev, td.next {
+  color: #BCBCBC;
+}
+.today span {
+  background: red;
+  border-radius: 50%;
+  padding: 3px;
+  color: white;
+}
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 1rem 0;
+  cursor: default;
+}
+.calendarHeader .control-btn {
+  cursor: pointer;
+  padding: 0 1.5rem 0 1.5rem;
+}
+.calendarMain {
+  width: 100%;
+}
+.calendarMain td{
+  text-align: center;
+  cursor: default;
+}
